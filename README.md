@@ -17,7 +17,6 @@ I love **automation**, **performance tuning**, and **infrastructure reliability*
 - 🔧 Architected CI/CD pipelines delivering **4+ major releases/year** at Intel  
 - 📦 Built custom repositories for Conda & Python packages  
 - ⚡ Improved deployments from **8 hours → 30 minutes**  
-- 🐶 Created a Telegram bot that scrapes Dogs.ie for real-time alerts
 
 ---
 
