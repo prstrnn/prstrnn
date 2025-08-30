@@ -26,15 +26,9 @@ I love **automation**, **performance tuning**, and **infrastructure reliability*
 ---
 
 ## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=prstrnn&show_icons=true&theme=tokyonight" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prstrnn&layout=compact&theme=tokyonight" height="165" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=prstrnn&show_icons=true&theme=tokyonight" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prstrnn&layout=compact&theme=tokyonight" height="165" />
 
----
-
-## 📈 Profile Visitors
-![Visitor Count](https://komarev.com/ghpvc/?username=prstrnn&color=0e75b6&style=flat)
 
 ---
 
@@ -48,8 +42,5 @@ I love **automation**, **performance tuning**, and **infrastructure reliability*
 
 
 ---
-<p align="center">
-
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&redirect=true)
 
-</p>
