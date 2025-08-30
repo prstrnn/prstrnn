@@ -1,3 +1,7 @@
+⭐ _"Building bridges between code and infrastructure, one pipeline at a time."_
+
+---
+
 <!-- Typing SVG -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=4C8EDA&width=600&lines=Hi+%F0%9F%91%8B+I'm+Andrei+Perestoronin;Software+Build+%26+Release+Engineer;Backend+%26+DevOps+Specialist;Automation+%7C+CI%2FCD+%7C+Performance+Optimization)](https://git.io/typing-svg)
 
@@ -18,6 +22,12 @@ I love **automation**, **performance tuning**, and **infrastructure reliability*
 - 📦 Built custom repositories for Conda & Python packages  
 - ⚡ Improved deployments from **8 hours → 30 minutes**  
 
+</br>
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrei_Perestoronin-blue?logo=linkedin)](https://www.linkedin.com/in/andreyperestoronin/)  
+[![Email](https://img.shields.io/badge/Email-andr.perestoronin%40gmail.com-red?logo=gmail)](mailto:andr.perestoronin@gmail.com)  
+
 ---
 
 ## 🏆 Certification
@@ -26,21 +36,16 @@ I love **automation**, **performance tuning**, and **infrastructure reliability*
 ---
 
 ## 📊 GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=prstrnn&show_icons=true&theme=tokyonight" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prstrnn&layout=compact&theme=tokyonight" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=prstrnn&show_icons=true&theme=buefy" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prstrnn&layout=compact&theme=buefy" height="165" />
+---
 
 
 ---
 
-## 📫 Let’s Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrei_Perestoronin-blue?logo=linkedin)](https://www.linkedin.com/in/andreyperestoronin/)  
-[![Email](https://img.shields.io/badge/Email-andr.perestoronin%40gmail.com-red?logo=gmail)](mailto:andr.perestoronin@gmail.com)  
+<p align="center">
 
----
-
-⭐ _"Building bridges between code and infrastructure, one pipeline at a time."_
-
-
----
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&redirect=true)
+
+---
 
