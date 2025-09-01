@@ -36,16 +36,24 @@ I love **automation**, **performance tuning**, and **infrastructure reliability*
 ---
 
 ## 📊 GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=prstrnn&show_icons=true&theme=buefy" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prstrnn&layout=compact&theme=buefy" height="165" />
----
-
-
----
-
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=prstrnn&show_icons=true&theme=buefy" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prstrnn&layout=compact&theme=buefy" height="165" />
+</p>
+---
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&redirect=true)
+Other stuff
+---
+<p align="center">
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=aperesto&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" 
+          alt="spotify-github-profile" />
+  </a>
+  <a href="https://github-irating-card-six.vercel.app/api/irating?cust_id=1144544&cat=sports_car">
+    <img src="https://github-irating-card-six.vercel.app/api/irating?cust_id=1144544&cat=sports_car&theme=light" 
+         alt="iRacing iRating • Sports Car" />
+  </a>
+</p>
 
 ---
 
