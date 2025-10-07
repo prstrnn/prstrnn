@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<style>
+  /* Paint the viewport black before anything else */
+  html {
+    background: #0d0d0d;
+    color-scheme: dark;
+  }
+
+  /* Prevent white gutters during layout/scrollbar calc */
+  html {
+    scrollbar-gutter: stable both-edges;
+  }
+</style>
+<script>
+  // Belt & suspenders: ensure earliest paint is black
+  document.documentElement.style.background = '#0d0d0d';
+</script>
+<meta name="theme-color" content="#0d0d0d">
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andrei Perestoronin — Profile</title>
+  <meta name="description"
+    content="Profile and resume of Andrei Perestoronin – Software Build & Release Engineer in Dublin, Ireland." />
+  <meta name="color-scheme" content="light dark" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="landing">
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-info">
+        <img src="avatar.jpg" alt="Andrei Perestoronin" class="avatar">
+        <h1>ANDREI PERESTORONIN</h1>
+        <div class="tag">SOFTWARE BUILD & RELEASE</div>
+        <div class="sub">Backend & DevOps • Dublin, Ireland <img src="https://flagcdn.com/w20/ie.png" alt="Irish Flag"
+            width="20" height="15" style="vertical-align: middle; border-radius:2px;">
+        </div>
+      </div>
+      <nav class="nav" aria-label="Sections">
+        <a href="#about" data-route>About</a>
+        <a href="#experience" data-route>Experience</a>
+        <a href="#projects" data-route>Projects</a>
+        <a href="#skills" data-route>Skills</a>
+        <a href="#contact" data-route>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1" aria-live="polite">
+  </main>
+
+  <footer>
+    <div class="views" id="views">PAGE VIEWS: —</div>
+    <div>© <span id="year"></span> Andrei Perestoronin. All rights reserved.</div>
+  </footer>
+
+  <template id="about">
+    <section class="card">
+      <h2>About</h2>
+      <div class="content">
+        <div class="highlight-list">
+          <ul>
+            <li><strong>9+</strong> years in software build &amp; release engineering</li>
+            <li>Expertize in CI/CD automation and DevOps pipelines</li>
+            <li>Built scalable backend systems at enterprise scale (Intel)</li>
+            <li>Focused on reliability, performance, and delivery speed</li>
+            <li>Skilled with Python, Jenkins, GitHub Actions</li>
+            <li>Good at simplifying processes and accelerating releases</li>
+            <li><strong>Legal stuff: </strong>IRP Stamp 4 holder</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Certifications</h2>
+      <div class="cert-grid">
+        <a href="https://www.credly.com/badges/d316e0ff-63a6-43af-92d8-8368e2f382c3/public_url" target="_blank"
+          rel="noopener">
+          <img src="https://images.credly.com/size/340x340/images/0dc62494-dc94-469a-83af-e35309f27356/blob"
+            alt="HashiCorp Certified: Terraform Associate (003) badge" loading="lazy" decoding="async" width="250"
+            height="250">
+        </a>
+      </div>
+    </section>
+  </template>
+
+  <template id="experience">
+    <div class="timeline">
+      <section class="card timeline-item">
+        <span class="timeline-date">Nov 2022 – Sept 2025</span>
+        <h2>
+          <img class="company-logo" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Intel_logo_2023.svg"
+            alt="Intel">
+          Dublin, Ireland & Russia
+        </h2>
+        <div class="content">
+          <p class="muted">Software Application Development Engineer · Software Build & Release Engineer</p>
+          <div class="highlight-list">
+            <ul>
+              <li>Architected and maintained mission-critical Jenkins CI/CD pipelines, delivering four major oneAPI
+                releases/year + multiple patches.</li>
+              <li>Designed a self-hosted (AWS S3) repository for Conda & Python wheels and built a scripted CLI to
+                automate uploads.</li>
+              <li>Maintained and improved a GitHub Actions workflow for building and validating binary installers for
+                key oneAPI products.</li>
+              <li>Drove a <strong>16×</strong> performance improvement for a 2TB APT/YUM repository pipeline, cutting
+                deployment from 8 hours to 30 minutes.</li>
+              <li>Engineered a Python CLI and module to interact with an internal cloud platform API, implementing
+                custom workflows to automate team use cases.</li>
+              <li>Partnered with cross-functional teams to resolve complex infra and backend issues.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card timeline-item">
+        <span class="timeline-date">Jan 2020 – Nov 2022</span>
+        <h2>
+          <img class="company-logo" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Intel_logo_2023.svg"
+            alt="Intel">
+          Dublin, Ireland
+        </h2>
+        <div class="content">
+          <p class="muted">Infrastructure & Backend Engineer</p>
+          <div class="highlight-list">
+            <ul>
+              <li>Modernized a legacy release automation engine to a scalable Kubernetes-hosted .NET Core 6 platform.
+              </li>
+              <li>Supported multiple oneAPI releases</li>
+              <li>Increased data replication stability to 98% after deep analysis of <code>rsync</code> across multiple
+                data servers in company.</li>
+              <li>Owned BCP plan for release automation engine</li>
+              <li>Built proactive monitoring for PyPI deployments to prevent upload failures and ensure availability.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card timeline-item">
+        <span class="timeline-date">Jan 2018 – Dec 2019</span>
+        <h2>
+          <svg class="company-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 33" fill="none">
+            <path
+              d="M7.72951 19.9414C6.15414 17.856 5.21345 15.272 5.21345 12.4556C5.21345 10.3589 5.73479 8.38681 6.65281 6.65277C2.69739 8.73815 0 12.8862 0 17.6633C0 24.5428 5.57612 30.119 12.4556 30.119C12.7616 30.119 13.062 30.0963 13.3566 30.0736C10.0359 27.8976 7.82584 24.1858 7.72951 19.9414Z"
+              fill="#E60004" />
+            <path
+              d="M19.2671 7.24783C19.5675 7.22516 19.8621 7.20249 20.1681 7.20249C20.5535 7.20249 20.9388 7.22516 21.3128 7.25916C21.3865 7.26483 21.4545 7.27049 21.5282 7.27616C21.8795 7.31583 22.2308 7.36683 22.5709 7.43483C22.6559 7.45183 22.7409 7.46883 22.8259 7.48583C23.1602 7.5595 23.4945 7.63884 23.8175 7.74084C23.8969 7.7635 23.9705 7.79184 24.0442 7.82017C24.2936 7.90517 24.5429 7.99584 24.7922 8.09218C24.9112 8.13751 25.0246 8.18285 25.1379 8.23385C25.3986 8.34718 25.6536 8.47185 25.8973 8.60219C26.0446 8.68153 26.1919 8.76086 26.3393 8.84586C26.4753 8.9252 26.6113 9.0102 26.7473 9.0952C27.0023 9.25387 27.2516 9.42387 27.4953 9.59955C27.569 9.65621 27.6426 9.70721 27.7106 9.76388C28.6173 10.4552 29.4163 11.2656 30.1077 12.1723C29.9547 5.42312 24.4466 0 17.6691 0C12.8863 0 8.73821 2.69739 6.65283 6.65281C8.38687 5.73479 10.3589 5.21345 12.4556 5.21345C14.9717 5.21345 17.3064 5.96713 19.2671 7.24783Z"
+              fill="#98C000" />
+            <path
+              d="M7.72956 19.9414C7.72956 19.8451 7.71822 19.7544 7.71822 19.6581C7.71822 13.0846 12.8127 7.7125 19.2671 7.24782C17.3064 5.96712 14.9717 5.21344 12.4557 5.21344C10.3589 5.21344 8.3869 5.73478 6.65287 6.65281C5.73485 8.38684 5.2135 10.3589 5.2135 12.4556C5.2135 15.2663 6.15419 17.8561 7.72956 19.9414Z"
+              fill="#9F0004" />
+            <path
+              d="M30.1077 12.1723C30.1077 12.2686 30.1191 12.3593 30.1191 12.4556C30.1191 17.2327 27.4217 21.3808 23.4719 23.4719C21.5169 27.1723 17.7541 29.762 13.3567 30.0794C15.3117 31.3601 17.6521 32.1137 20.1682 32.1137C27.0477 32.1137 32.6238 26.5376 32.6238 19.6581C32.6238 16.8417 31.6774 14.2577 30.1077 12.1723Z"
+              fill="#00A6EB" />
+            <path
+              d="M23.4718 23.4719C21.7378 24.3899 19.7658 24.9112 17.669 24.9112C17.2837 24.9112 16.8984 24.8886 16.5244 24.8546C16.4564 24.8489 16.3827 24.8432 16.3147 24.8319C15.9633 24.7922 15.612 24.7412 15.272 24.6732C15.187 24.6562 15.102 24.6336 15.0113 24.6166C14.677 24.5429 14.3483 24.4636 14.0196 24.3616C13.9403 24.3332 13.8666 24.3106 13.7873 24.2822C13.5323 24.1972 13.2886 24.1065 13.0449 24.0102C12.9316 23.9649 12.8126 23.9195 12.6993 23.8685C12.4443 23.7552 12.1893 23.6305 11.9399 23.5002C11.7926 23.4209 11.6452 23.3415 11.4979 23.2565C11.3619 23.1772 11.2259 23.0922 11.0956 23.0129C10.8406 22.8485 10.5856 22.6785 10.3419 22.5028C10.2682 22.4462 10.2002 22.3952 10.1265 22.3442C9.21986 21.6528 8.41517 20.8425 7.72949 19.9358C7.82583 24.1802 10.0359 27.8976 13.3566 30.0737C17.754 29.762 21.5168 27.1723 23.4718 23.4719Z"
+              fill="#202C85" />
+            <path
+              d="M27.7106 9.7639C27.6426 9.70724 27.5689 9.65624 27.4953 9.59957C27.2516 9.4239 27.0023 9.25389 26.7473 9.09522C26.6113 9.01022 26.4809 8.92522 26.3392 8.84588C26.1919 8.76088 26.0446 8.68155 25.8972 8.60221C25.6479 8.47188 25.3986 8.34721 25.1379 8.23387C25.0245 8.18287 24.9112 8.13754 24.7922 8.0922C24.5485 7.99587 24.2992 7.9052 24.0442 7.8202C23.9705 7.79753 23.8912 7.76919 23.8175 7.74086C23.4945 7.63886 23.1602 7.55952 22.8258 7.48585C22.7408 7.46885 22.6558 7.44619 22.5708 7.43485C22.2252 7.36685 21.8795 7.31018 21.5281 7.27618C21.4545 7.27052 21.3865 7.26485 21.3128 7.25918C20.9388 7.22518 20.5535 7.20251 20.1681 7.20251C19.8621 7.20251 19.5674 7.22518 19.2671 7.24785C22.6615 9.46923 24.9112 13.3057 24.9112 17.6691C24.9112 19.7658 24.3842 21.7378 23.4718 23.4775C27.4216 21.3865 30.119 17.2441 30.119 12.4613C30.119 12.365 30.1077 12.2686 30.1077 12.178C29.422 11.2656 28.6173 10.4553 27.7106 9.7639Z"
+              fill="#006822" />
+            <path
+              d="M19.2671 7.2478C12.8126 7.71248 7.71814 13.0846 7.71814 19.6581C7.71814 19.7544 7.72947 19.8451 7.72947 19.9414C8.41516 20.8481 9.22551 21.6585 10.1265 22.3498C10.2002 22.4008 10.2682 22.4575 10.3419 22.5085C10.5855 22.6841 10.8349 22.8541 11.0955 23.0185C11.2316 23.0978 11.3619 23.1828 11.4979 23.2622C11.6452 23.3472 11.7926 23.4265 11.9399 23.5058C12.1892 23.6362 12.4386 23.7608 12.6993 23.8742C12.8183 23.9195 12.9316 23.9648 13.0449 24.0158C13.2886 24.1122 13.5379 24.2085 13.7873 24.2878C13.8666 24.3162 13.9403 24.3388 14.0196 24.3672C14.3426 24.4635 14.677 24.5485 15.0113 24.6222C15.0963 24.6449 15.1813 24.6619 15.272 24.6789C15.6176 24.7469 15.9633 24.7979 16.3147 24.8375C16.3827 24.8432 16.4563 24.8489 16.5243 24.8602C16.904 24.8942 17.2837 24.9169 17.669 24.9169C19.7657 24.9169 21.7378 24.3898 23.4718 23.4775C24.3842 21.7435 24.9112 19.7714 24.9112 17.669C24.9112 13.3056 22.6615 9.46919 19.2671 7.2478Z"
+              fill="#FFE500" />
+            <path
+              d="M57.3139 18.1734C57.2516 16.4563 57.1836 14.3766 57.1836 12.3026H57.1439C56.6792 14.1273 56.0842 16.1617 55.5346 17.8334L53.7949 23.4095H51.2731L49.7488 17.9014C49.2784 16.207 48.8194 14.1726 48.4567 12.3026H48.4171C48.3547 14.2293 48.2697 16.4337 48.1847 18.2187L47.9071 23.6418H44.9207L45.833 9.35583H50.1398L51.5395 14.1273C52.0041 15.782 52.4292 17.5614 52.7465 19.2387H52.8315C53.2112 17.584 53.6985 15.697 54.1915 14.1046L55.6932 9.35583H59.932L60.697 23.6418H57.5576L57.3139 18.1734Z"
+              fill="white" />
+            <path
+              d="M62.2101 20.3154C63.0601 20.7574 64.4145 21.2051 65.7915 21.2051C67.2762 21.2051 68.0582 20.5931 68.0582 19.6581C68.0582 18.7684 67.3782 18.2584 65.6668 17.6634C63.2924 16.8133 61.7227 15.4986 61.7227 13.4246C61.7227 10.9879 63.7798 9.1405 67.1289 9.1405C68.7609 9.1405 69.9283 9.45784 70.7783 9.86019L70.0586 12.4499C69.5089 12.1722 68.4662 11.7699 67.0892 11.7699C65.6895 11.7699 65.0095 12.4272 65.0095 13.1469C65.0095 14.0593 65.7915 14.4616 67.6559 15.1586C70.1776 16.0937 71.345 17.4084 71.345 19.4201C71.345 21.8115 69.5202 23.8458 65.5988 23.8458C63.9668 23.8458 62.3574 23.3982 61.5527 22.9561L62.2101 20.3154Z"
+              fill="white" />
+            <path d="M75.2721 12.0702H71.413V9.35583H82.3952V12.0702H78.4965V23.6418H75.2721V12.0702Z" fill="white" />
+            <path d="M86.5376 4.78846H85.8575V4.53912H87.5122V4.78846H86.8266V6.77751H86.5319V4.78846H86.5376Z"
+              fill="#676666" />
+            <path
+              d="M89.6657 5.79721C89.6487 5.48554 89.6261 5.10586 89.6261 4.82819H89.6204C89.5411 5.08886 89.4504 5.3722 89.3371 5.67821L88.9404 6.76623H88.7194L88.3567 5.70088C88.249 5.38354 88.164 5.09453 88.1017 4.82819H88.096C88.0904 5.10586 88.0734 5.47987 88.0507 5.81988L87.9884 6.77757H87.7107L87.8637 4.53918H88.232L88.6174 5.62154C88.7081 5.89921 88.7817 6.14289 88.8441 6.37523H88.8497C88.9064 6.14855 88.9857 5.90488 89.0877 5.62154L89.4844 4.53918H89.8527L89.9944 6.77757H89.7054L89.6657 5.79721Z"
+              fill="#676666" />
+          </svg>
+          Nizhni Novgorod, Russia
+        </h2>
+        <div class="content">
+          <p class="muted">Software developer</p>
+          <div class="highlight-list">
+            <ul>
+              <li>Developed simulation algorithm for people evacuation during fire simulation</li>
+              <li>Supported other features to simulate & calculate fire risk in complex building structures,
+                contributing to the core product.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="card timeline-item">
+        <span class="timeline-date">Dec 2015 – Dec 2017</span>
+        <h2>
+          <img class="company-logo" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Intel_logo_2023.svg"
+            alt="Intel">
+          Nizhni Novgorod, Russia
+        </h2>
+        <div class="content">
+          <p class="muted">Software Developer Intern, Automation Engineering</p>
+          <div class="highlight-list">
+            <ul>
+              <li>Developed backend services for integration with Salesforce, reducing manual effort and errors.</li>
+              <li>Implemented tests and test framework for internal services</li>
+              <li>Supported and patched legacy version of release service</li>
+              <li>Patched ASP.net pages with new data and forms for legacy release service</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="timeline">
+  </template>
+
+  <template id="projects">
+    <section class="card">
+      <h2><a href="https://github.com/prstrnn/k8s-demo">Kubernetes Demo – Learning Setup</a></h2>
+      <div class="content">
+        <p class="muted">Kubernetes · docker · kind · self-hosting</p>
+        <p> This repository contains a Kubernetes demo environment built with kind (Kubernetes in Docker).</p>
+        <p>It is designed for learning purposes only — not for production. </p>
+        <p> The cluster runs several common services: </p>
+        <div class="highlight-list">
+          <ul>
+            <li>Postgres (database)</li>
+            <li>pgAdmin (Postgres web UI)</li>
+            <li>MongoDB (database)</li>
+            <li>Redis (in-memory datastore)</li>
+            <li>Kubernetes Dashboard (web UI for managing the cluster)</li>
+            <li>ingress-nginx (for routing HTTP traffic into the cluster)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><a href="https://github.com/prstrnn/github-irating-card">iRacing iRating Card for embedding in GitHub</a></h2>
+      <div class="content">
+        <p class="muted">Python · Vercel </p>
+        <p><strong>Live, embeddable SVG widget</strong> that shows your current iRating for different iRacing
+          categories: </p>
+        <p align="center">(Sports Car, Formula Car, Road, Oval, Dirt Road, Dirt Oval).</p>
+        <p>Hosted on Vercel</p>
+        <h3>Example:</h3>
+        <p align="center">
+          <a href="https://github-irating-card-six.vercel.app/api/irating?cust_id=1144544&cat=sports_car">
+            <img src="https://github-irating-card-six.vercel.app/api/irating?cust_id=1144544&cat=sports_car&theme=light"
+              alt="iRacing iRating • Sports Car" />
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Dogs.ie Telegram Bot</h2>
+      <div class="content">
+        <p class="muted">Go · Web Scraping · Telegram Bot API</p>
+        <div class="highlight-list">
+          <ul>
+            <li>Self-hosted bot scraping dogs.ie for new listings with real-time notifications.</li>
+            <li>User settings enable filtering notifications by specific dog breeds.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  </template>
+
+  <template id="skills">
+    <section class="card">
+      <h2>Technical Skills</h2>
+      <div class="content">
+        <div class="chips" aria-label="Technical skills">
+          <span class="chip"><strong>Languages</strong>: Python · Groovy · SQL · Go · C#</span>
+          <!-- <span class="chip"><strong>Frameworks</strong>: .NET 6 · ASP.NET Core · WCF · EF · LINQ · REST · SOAP</span> -->
+          <span class="chip"><strong>DevOps & Cloud</strong>: Jenkins · Docker · GitHub Actions · AWS · Kubernetes · Terraform · Ansible · TeamCity</span>
+          <span class="chip"><strong>Databases & Tools</strong>: MS SQL Server · Redis · Git · Jira · Artifactory </span>
+          <span class="chip"><strong>Concepts</strong>: CI/CD · IaC · Agile · CQRS · Event Sourcing</span>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="contact">
+    <section class="card">
+      <h2>Contact</h2>
+      <div class="content">
+        <p><strong>Email:</strong> <a href="mailto:andr.perestoronin@gmail.com">andr.perestoronin@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+353894468689">+353 89 446 8689</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/andreyperestoronin/" target="_blank"
+            rel="noopener">in/andreyperestoronin</a></p>
+        <p class="muted">Dublin, Ireland</p>
+      </div>
+    </section>
+  </template>
+
+  <script>
+
+    // Simple client-side router using hash routes so it works on S3 without redirects
+    const routes = ['about', 'experience', 'projects', 'skills', 'contact'];
+    const app = document.getElementById('app');
+    const titleBase = 'Andrei Perestoronin — ';
+
+    function dockHeaderOnce() {
+      if (document.body.classList.contains('docked')) return;
+      // measure header height to offset main content correctly
+      const h = document.querySelector('.site-header')?.offsetHeight || 120;
+      document.documentElement.style.setProperty('--header-h', h + 'px');
+      document.body.classList.remove('landing');
+      document.body.classList.add('docked');
+    }
+
+
+    function render(route) {
+      if (!routes.includes(route)) {
+        app.innerHTML = '';        // clear content
+        document.title = titleBase + 'Home';
+        document.querySelectorAll('[data-route]').forEach(a => a.classList.remove('active'));
+        return; // stop — wait for user to click
+      }
+
+      dockHeaderOnce();
+
+      const tpl = document.getElementById(route);
+      app.innerHTML = '';
+      app.appendChild(tpl.content.cloneNode(true));
+
+      // highlight active
+      document.querySelectorAll('[data-route]').forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + route);
+      });
+
+      document.title = titleBase + route.charAt(0).toUpperCase() + route.slice(1);
+
+      // fade-in effect
+      const newCards = app.querySelectorAll('.card');
+      newCards.forEach((card, i) => {
+        setTimeout(() => card.classList.add('visible'), i * 80);
+      });
+    }
+
+    function onHash() { render(location.hash.replace('#', '')); }
+    window.addEventListener('hashchange', onHash);
+    if (location.hash) onHash();
+
+    // Page views (local best-effort counter using localStorage + Date)
+    const v = localStorage.getItem('ap_views') || '0';
+    const newV = (parseInt(v, 10) || 0) + 1; localStorage.setItem('ap_views', newV);
+    const viewsEl = document.getElementById('views'); if (viewsEl) viewsEl.textContent = 'PAGE VIEWS: ' + newV.toLocaleString();
+
+    // Utilities
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('printBtn').addEventListener('click', (e) => { e.preventDefault(); window.print(); });
+  </script>
+</body>
+
+</html>
