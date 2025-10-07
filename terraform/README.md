@@ -82,3 +82,8 @@ flowchart TD
     classDef terragruntInput fill:#EC4899,stroke:#BE185D,stroke-width:2px,color:#fff
 
 ```
+---
+
+## TODO
+- [ ] Add proper page counter
+- [ ] Make adjustments to page style
